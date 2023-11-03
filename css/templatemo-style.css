@@ -73,6 +73,9 @@ a:hover {
 #tmWelcome {
   position: relative;
   display: flex;
+  height: 500px;
+  background: url('img/mini-profile-bg-01.jpg') center center fixed;
+  background-size: cover;
   align-items: center;
 }
 
@@ -81,12 +84,12 @@ a:hover {
 }
 
 .tm-brand-container-inner {
-  max-width: 580px;
+  max-width: 600px;
   width: 100%;
 }
 
 .tm-brand-container {
-  padding: 75px 110px;
+  padding: 100px 110px;
 }
 
 .tm-brand-name {
@@ -98,7 +101,7 @@ a:hover {
 }
 
 .parallax-window {
-  min-height: 1100px;
+  min-height: 1240px;
   background: transparent;
 }
 
@@ -134,7 +137,7 @@ a:hover {
 .tm-welcome-right {
   color: white;
   background-color: #986665;
-  padding: 80px 43px 70px;
+  padding: 50px 43px 70px;
   height: 100%;
 }
 
